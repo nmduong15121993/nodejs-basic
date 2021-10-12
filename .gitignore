@@ -1,0 +1,7 @@
+# dependences
+/node_modules
+/.pnp
+
+# testing 
+/covergate
+
