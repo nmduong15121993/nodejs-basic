@@ -1,8 +1,10 @@
 const express = require('express');
 const app = express();
+const sortId = require('shortid');
 
 const low = require('lowdb');
-const FileSync = require('lowdb/adapters/FileSync')
+const FileSync = require('lowdb/adapters/FileSync');
+const { generate } = require('shortid');
 const adapter = new FileSync('db.json')
 const db = low(adapter)
 
@@ -15,7 +17,6 @@ const port = 3000;
 app.set('view engine', 'pug');
 app.use(express.json()) // for parsing application/json
 app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
-
 
 app.get('/', function(req, res) {
   res.render('index', { name: 'Duong' });
@@ -43,7 +44,14 @@ app.get('/users/create', function(req, res) {
   res.render('users/create');
 })
 
+app.get('/users/:id', function(req, res) {
+  let id = req.params.id;
+  let user = db.get('dataUsers').find({ id: id }).value();
+  res.render('users/view', { users: user });
+})
+
 app.post('/users/create', function(req, res) {
+  req.body.id = sortId.generate();
   db.get('dataUsers').push(req.body).write();
   res.redirect('/users');
 })
