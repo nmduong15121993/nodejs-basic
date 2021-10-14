@@ -2,6 +2,8 @@ const sortId = require('shortid');
 let db = require('../db');
 
 module.exports.index = function(req, res) {
+  console.log(req.cookies);
+
   res.render('users/index', {
     title: 'Danh Sach Users',
     users: db.get('dataUsers').value(),

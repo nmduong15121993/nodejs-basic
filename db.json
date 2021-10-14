@@ -34,12 +34,26 @@
     {
       "name": "duong test validate",
       "phone": "0944424744",
-      "id": "wn9_C_RFX"
+      "id": "wn9_C_RFX",
+      "email": "nmduong@gmail.com",
+      "password": "123456"
     },
     {
       "name": "Nhat Ha",
       "phone": "897546",
-      "id": "NrXxYHTRr"
+      "id": "NrXxYHTRr",
+      "email": "nhatha@gmail.com",
+      "password": "123456"
+    },
+    {
+      "name": "abcd",
+      "phone": "123",
+      "id": "U2hpCzK2a"
+    },
+    {
+      "name": "duong",
+      "phone": "123",
+      "id": "gXG_XHtu4"
     }
   ]
 }
