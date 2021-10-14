@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 let userRoutes = require('./routes/user.route');
 let authRoutes = require('./routes/auth.route');
@@ -10,7 +11,7 @@ app.set('view engine', 'pug');
 app.use(express.json()) // for parsing application/json
 app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
 app.use(express.static('public'));
-app.use(cookieParser('abcdefHGSSSSS123456'));
+app.use(cookieParser(process.env.SESSION_SECRET));
 
 app.get('/', function(req, res) {
   res.render('index', { name: 'Duong' });
