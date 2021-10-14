@@ -10,7 +10,7 @@ app.set('view engine', 'pug');
 app.use(express.json()) // for parsing application/json
 app.use(express.urlencoded({ extended: true })) // for parsing application/x-www-form-urlencoded
 app.use(express.static('public'));
-app.use(cookieParser());
+app.use(cookieParser('abcdefHGSSSSS123456'));
 
 app.get('/', function(req, res) {
   res.render('index', { name: 'Duong' });
