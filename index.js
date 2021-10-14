@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 let userRoutes = require('./routes/user.route');
 let authRoutes = require('./routes/auth.route');
+const productRoutes = require('./routes/product.route');
 let cookieParser = require('cookie-parser');
 
 const app = express();
@@ -19,6 +20,7 @@ app.get('/', function(req, res) {
 
 app.use('/users', userRoutes);
 app.use('/auth', authRoutes);
+app.use('/products', productRoutes);
 
 app.listen(port, () => console.log('App listen on port 3000'));
 
