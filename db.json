@@ -1,37 +1,6 @@
 {
   "dataUsers": [
     {
-      "name": "Test ID",
-      "id": "GwI_SxnR8"
-    },
-    {
-      "name": "Duong",
-      "id": "_L6EiSi3u"
-    },
-    {
-      "name": "Duong Dep Trai",
-      "id": "eRCQlx_1W"
-    },
-    {
-      "name": "test",
-      "id": "Z0tbSMkIN"
-    },
-    {
-      "name": "abcd",
-      "phone": "123",
-      "id": "lvewiKPFO"
-    },
-    {
-      "name": "Test Duong",
-      "phone": "123456",
-      "id": "wgvDd46We"
-    },
-    {
-      "name": "duong",
-      "phone": "12345",
-      "id": "4iWE2Zvn7"
-    },
-    {
       "name": "duong test validate",
       "phone": "0944424744",
       "id": "wn9_C_RFX",
@@ -46,14 +15,16 @@
       "password": "e10adc3949ba59abbe56e057f20f883e"
     },
     {
-      "name": "abcd",
-      "phone": "123",
-      "id": "U2hpCzK2a"
+      "name": "Test File",
+      "phone": "1234",
+      "id": "T5aln_tMl",
+      "avatar": "uploads/19962c93799c348219bc62cf931de09e"
     },
     {
-      "name": "duong",
-      "phone": "123",
-      "id": "gXG_XHtu4"
+      "name": "Minh Duong",
+      "phone": "123456",
+      "id": "twrbuKVzx",
+      "avatar": "uploads/71d836b14668da5726bbdd07e04d5d49"
     }
   ],
   "products": [

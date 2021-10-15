@@ -2,8 +2,6 @@ const sortId = require('shortid');
 let db = require('../db');
 
 module.exports.index = function(req, res) {
-  console.log(req.cookies);
-
   res.render('users/index', {
     title: 'Danh Sach Users',
     users: db.get('dataUsers').value(),
@@ -33,7 +31,7 @@ module.exports.get = function(req, res) {
 
 module.exports.postCreate = function(req, res) {
   req.body.id = sortId.generate();
-  console.log(res.locals);
+  req.body.avatar = req.file.path.split('/').slice(1).join('/');
   db.get('dataUsers').push(req.body).write();
   res.redirect('/users');
 };
