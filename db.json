@@ -628,5 +628,71 @@
       "image": "https://loremflickr.com/320/240",
       "description": "viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla"
     }
+  ],
+  "sessions": [
+    {
+      "id": "MRNpH9R7W",
+      "cart": {
+        "5bd2cbf1-c35c-4370-aed4-b2198556abb7": 3,
+        "c88b28cf-2726-47af-be85-1854d65e4e20": 1
+      }
+    },
+    {
+      "id": "MKeLBx5O5"
+    },
+    {
+      "id": "p9ANbgAgq"
+    },
+    {
+      "id": "yi5uMIogo"
+    },
+    {
+      "id": "FhpWzjoXz"
+    },
+    {
+      "id": "QHoCU3VICd"
+    },
+    {
+      "id": "WZBf7j8mB"
+    },
+    {
+      "id": "cCNkTnIxb"
+    },
+    {
+      "id": "Wq1Ox_zZ-u"
+    },
+    {
+      "id": "rcH10_DBK"
+    },
+    {
+      "id": "dCZ2D27Cv"
+    },
+    {
+      "id": "KFekT1Ruow"
+    },
+    {
+      "id": "SCa9EEsVA"
+    },
+    {
+      "id": "m4HDyzgVt"
+    },
+    {
+      "id": "xIHad-gezQ"
+    },
+    {
+      "id": "fKjlpHLUe"
+    },
+    {
+      "id": "3cvimgPnEU"
+    },
+    {
+      "id": "begi30j-Z"
+    },
+    {
+      "id": "XbLPu7BArz"
+    },
+    {
+      "id": "wvEwD5g9h"
+    }
   ]
 }
