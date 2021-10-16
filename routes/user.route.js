@@ -1,7 +1,6 @@
 let express = require('express');
 let multer = require('multer');
 
-const db = require('../db');
 let constroller = require('../controllers/user.controller');
 let validate = require('../validate/user.validate');
 const authMiddleware = require('../middlewares/auth.middleware');
